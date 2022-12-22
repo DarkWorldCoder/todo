@@ -90,7 +90,7 @@ const Navbar:React.FC<Props> = ({}) => {
       </div>
       <img 
       onClick={()=>setShowDropDown(prev=>!prev)}
-      src={user?.photoURL!==""?user?.photoURL:"https://imgs.search.brave.com/g8khxA4EPsjGqIfWtqBDGq3afLZV4pHjEPBRUwpfWQQ/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDcxNTE2/OTQucG5n"} />
+      src={user?.photoURL!==null?user?.photoURL:"https://imgs.search.brave.com/g8khxA4EPsjGqIfWtqBDGq3afLZV4pHjEPBRUwpfWQQ/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDcxNTE2/OTQucG5n"} />
      
     </div>
    
